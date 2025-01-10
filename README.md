@@ -6,7 +6,7 @@ This repository contains a folder for each external website, with detailed infor
 **This repository is under construction**
 ### *The following table includes the list of external webpages providing information about **NOMAD**:*
 
-| Webpage | description | Language | Last updated |
+| Webpage | Description | Language | Last updated |
 |------------|------------|--------------|--------------|
 | [Re3data](https://www.re3data.org/repository/r3d100011583)     |   Registry of research data repositories.     | EN        | Dec 2024
 | [FAIRsharing](https://fairsharing.org/FAIRsharing.aq20qn)    | A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.       | EN       | Dec 2024
@@ -20,7 +20,7 @@ This repository contains a folder for each external website, with detailed infor
 --------------------
 ### *The following table includes the list of external webpages providing information about **FAIRmat**:*
 
-| Webpage | description | Language | Last updated |
+| Webpage | Description | Language | Last updated |
 |------------|------------|--------------|--------------|
 | [NFDI](https://www.nfdi.de/consortia-fairmat/?lang=en)    | The official NFDI webpage      | EN - DE       | 
 | [NFDI Helpdesks](https://www.nfdi.de/consortia-fairmat/?lang=en) | The official NFDI webpage to compile user support available from the consortia  | EN - DE       | Oct 2024 
