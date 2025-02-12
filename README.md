@@ -22,7 +22,7 @@ This repository contains a folder for each external website, with detailed infor
 
 | Webpage | Description | Language | Last updated |
 |------------|------------|--------------|--------------|
-| [NFDI](https://www.nfdi.de/consortia-fairmat/?lang=en)    | The official NFDI webpage      | EN - DE       | 
+| [NFDI](https://www.nfdi.de/consortia-fairmat/?lang=en)    | The official NFDI webpage      | EN - DE       | Feb 2025
 | [NFDI Helpdesks](https://www.nfdi.de/consortia-fairmat/?lang=en) | The official NFDI webpage to compile user support available from the consortia  | EN - DE       | Oct 2024 
 | [FID Materials Science](https://www.materials-science.info/related-work)     | The DFG-funded Specialised Information Service Materials Science and Engineering, or FID Materials Science for short, is aimed primarily at researchers and institutions in the fields of materials science and materials engineering. The aim of the project is to provide rapid and effective information and networking to support research and initiate cooperations.      | DE      | Jul 2023
 | [forschungsdaten.info](https://forschungsdaten.info/wissenschaftsbereiche/physik/nfdi-konsortien/fairmat/)    | Forschungsdaten.info ist das deutschsprachige Informationsportal zu Forschungsdatenmanagement (FDM). | DE       | Jul 2023
