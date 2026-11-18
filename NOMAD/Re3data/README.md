@@ -1,5 +1,6 @@
 # NOMAD entry on Re3data
 
+Changes submitted on **18 November 2026** are **under review by re3data**. Publication is pending.
 
 ### Instructions for updating the entry: 
 1. Open the NOMAD entry page by visiting this [Link](https://www.re3data.org/search?query=NOMAD)

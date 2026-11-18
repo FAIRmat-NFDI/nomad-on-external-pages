@@ -8,8 +8,8 @@ This repository contains a folder for each external website, with detailed infor
 
 | Webpage | Description | Language | Last updated |
 |------------|------------|--------------|--------------|
-| [Re3data](https://www.re3data.org/repository/r3d100011583)     |   Registry of research data repositories.     | EN        | Dec 2024
-| [FAIRsharing](https://fairsharing.org/FAIRsharing.aq20qn)    | A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.       | EN       | Dec 2024
+| [Re3data](https://www.re3data.org/repository/r3d100011583)     |   Registry of research data repositories.     | EN        | Changes submitted 18 Nov 2026; under review by re3data |
+| [FAIRsharing](https://fairsharing.org/FAIRsharing.aq20qn)    | A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.       | EN       | Nov 2026
 | [EOSC Finland - Services and resources](https://research.csc.fi/eosc-services/) | CSC's catalogue of EOSC services and resources. Agreed NOMAD metadata and maintenance instructions: [local documentation](NOMAD/EOSC_Finland_Node/README.md). | EN - FI | Metadata documented: Nov 2026; publication unconfirmed |
 | [ELN Finder](https://eln-finder.ulb.tu-darmstadt.de/items/1b3259e9-f197-4b39-9110-b309bfcd82d0)    | The ELN Finder helps researchers and staff from research infrastructure institutions to select the appropriate software for an electronic lab notebook ELN from the wide range of available ELNs.       | EN       | Sept 2023 
 | [Go FAIR](https://www.go-fair.org/implementation-networks/overview/nomad/)    | GO FAIR is a bottom-up, stakeholder-driven and self-governed initiative that aims to implement the FAIR data principles. It offers an open and inclusive ecosystem for individuals, institutions and organisations working together through Implementation Networks.     | EN       | 
