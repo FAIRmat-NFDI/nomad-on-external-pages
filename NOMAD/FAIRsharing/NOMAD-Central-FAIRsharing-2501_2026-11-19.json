@@ -1,0 +1,520 @@
+{
+  "data": {
+    "id": "2501",
+    "type": "fairsharing_records",
+    "attributes": {
+      "created_at": "2017-08-07T11:30:44.000Z",
+      "updated_at": "2026-11-18T16:43:36.512Z",
+      "metadata": {
+        "doi": "10.25504/FAIRsharing.aq20qn",
+        "name": "NOMAD Central Platform",
+        "status": "ready",
+        "contacts": [
+          {
+            "contact_name": "adminstrative",
+            "contact_email": "contact@nomad-lab.eu"
+          },
+          {
+            "contact_name": "support",
+            "contact_email": "support@nomad-lab.eu",
+            "contact_orcid": null
+          }
+        ],
+        "homepage": "https://nomad-lab.eu/",
+        "citations": [
+          {
+            "doi": "10.21105/joss.05388",
+            "pubmed_id": 1021105,
+            "publication_id": 4675
+          }
+        ],
+        "identifier": 2501,
+        "description": "NOMAD Central Platform is a free web service that allows you to share your data or use comprehensive data provided by others. You can use NOMAD Central to organize, analyze, share, and publish your materials science data, as well as explore, download, and analyze the data of your colleagues. NOMAD is not only about sharing files, it is about sharing data and making them FAIR (Findable, Accessible, Interoperable, Reusable). All data in NOMAD are organized in well-defined structures described by a formal schema. When you publish a project, you can assign it a Digital Object Identifier (DOI) so others can cite it.",
+        "abbreviation": null,
+        "data_curation": {
+          "type": "manual/automated",
+          "notes": "NOMAD provides tools and workflows to support high-quality and FAIR research data, including schema-based storage, automatic metadata extraction and validation. However, the responsibility for the scientific accuracy and completeness of published data remains with the data providers.  Some datasets and collections may undergo additional curation by research groups or community initiatives, but NOMAD itself does not perform scientific peer review of all submitted data."
+        },
+        "support_links": [
+          {
+            "url": "https://about.nomad-lab.eu/terms.html",
+            "name": "Terms of use",
+            "type": "Other"
+          },
+          {
+            "url": "https://docs.nomad-lab.eu",
+            "name": "NOMAD Documentation",
+            "type": "Help documentation"
+          },
+          {
+            "url": "https://docs.nomad-lab.eu/howto/overview.html",
+            "name": "NOMAD how-to guides",
+            "type": "Training documentation"
+          },
+          {
+            "url": "https://docs.nomad-lab.eu/tutorial/overview.html",
+            "name": "NOMAD tutorials",
+            "type": "Training documentation"
+          },
+          {
+            "url": "https://about.nomad-lab.eu/faqs.html",
+            "name": "FAQ",
+            "type": "Frequently Asked Questions (FAQs)"
+          },
+          {
+            "url": "https://www.youtube.com/@TheNOMADLaboratory",
+            "name": "FAIRmat and NOMAD YouTube channel",
+            "type": "Video"
+          },
+          {
+            "url": "https://github.com/FAIRmat-NFDI",
+            "name": "FAIRmat-NFDI GitHub",
+            "type": "Github"
+          },
+          {
+            "url": "https://github.com/nomad-coe/nomad",
+            "name": "NOMAD GitHub",
+            "type": "Github"
+          },
+          {
+            "url": "https://gitlab.mpcdf.mpg.de/nomad-lab/nomad-FAIR",
+            "name": "GitLab@MPCDF",
+            "type": "Github"
+          },
+          {
+            "url": "https://discord.com/invite/Gyzx3ukUw8",
+            "name": "NOMAD Discord Server (instant support)",
+            "type": "Forum"
+          },
+          {
+            "url": "https://matsci.org/c/nomad/32",
+            "name": "matsci.org community discussion forum",
+            "type": "Forum"
+          },
+          {
+            "url": "https://about.nomad-lab.eu/privacy.html",
+            "name": "Privacy policy",
+            "type": "Other"
+          }
+        ],
+        "year_creation": 2014,
+        "data_versioning": "no",
+        "associated_tools": [
+          {
+            "url": "https://nomad-lab.eu/nomad-lab/nomad-oasis.html",
+            "name": "NOMAD Oasis"
+          },
+          {
+            "url": "https://nomad-lab.eu/nomad-lab/nomad-camels.html",
+            "name": "NOMAD CAMELS"
+          },
+          {
+            "url": "https://about.nomad-lab.eu/plugin-registry.html",
+            "name": "NOMAD Plugins"
+          }
+        ],
+        "cross_references": [
+          {
+            "url": "https://www.re3data.org/repository/r3d100011583",
+            "name": "re3data:r3d100011583",
+            "portal": "re3data"
+          }
+        ],
+        "internal_identifiers": false,
+        "data_access_condition": {
+          "url": "https://nomad-lab.eu/nomad-lab/terms.html",
+          "type": "open",
+          "notes": "Public data in NOMAD Central can be searched, viewed, and downloaded free of charge without signing in. For projects published under embargo, entry metadata remain publicly visible, while access to the files is limited to authorized users until the embargo expires or is lifted."
+        },
+        "resource_sustainability": {},
+        "data_contact_information": "no",
+        "data_preservation_policy": {},
+        "data_deposition_condition": {
+          "url": "https://docs.nomad-lab.eu/howto/manage/gui/account.html",
+          "type": "open",
+          "notes": "Researchers can deposit materials science data by creating a free NOMAD Central account or by signing in via Helmholtz AAI with a participating identity provider. A project must contain at least one successfully processed entry before it can be published. "
+        },
+        "citation_to_related_publications": "yes",
+        "data_access_for_pre_publication_review": "yes"
+      },
+      "legacy_ids": [
+        "biodbcore-000983",
+        "bsg-d000983"
+      ],
+      "name": "FAIRsharing record for: NOMAD Central Platform",
+      "abbreviation": null,
+      "url": "https://fairsharing.org/10.25504/FAIRsharing.aq20qn",
+      "doi": "10.25504/FAIRsharing.aq20qn",
+      "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+      "description": "This FAIRsharing record describes: NOMAD Central Platform is a free web service that allows you to share your data or use comprehensive data provided by others. You can use NOMAD Central to organize, analyze, share, and publish your materials science data, as well as explore, download, and analyze the data of your colleagues. NOMAD is not only about sharing files, it is about sharing data and making them FAIR (Findable, Accessible, Interoperable, Reusable). All data in NOMAD are organized in well-defined structures described by a formal schema. When you publish a project, you can assign it a Digital Object Identifier (DOI) so others can cite it.",
+      "linked_records": [],
+      "linking_records": [
+        {
+          "linking_record_name": "NFDI4Chem ",
+          "linking_record_id": 5027,
+          "linking_record_url": "https://www.nfdi4chem.de/",
+          "linking_record_registry": "Collection",
+          "linking_record_type": "collection",
+          "relation": "collects",
+          "relation_id": 10,
+          "link_id": 18430
+        },
+        {
+          "linking_record_name": "Artificial Intelligence Resources",
+          "linking_record_id": 7193,
+          "linking_record_url": "https://fairsharing.org/search?subjects=Artificial%2520Intelligence",
+          "linking_record_registry": "Collection",
+          "linking_record_type": "collection",
+          "relation": "collects",
+          "relation_id": 10,
+          "link_id": 25923
+        }
+      ],
+      "fairsharing_registry": "Database",
+      "record_type": "repository",
+      "subjects": [
+        "Physics",
+        "Artificial Intelligence",
+        "Chemistry",
+        "Molecular Dynamics",
+        "Computational Chemistry",
+        "Natural Science",
+        "Solid-State Chemistry",
+        "Theoretical Chemistry",
+        "Condensed Matter Physics",
+        "Theoretical Condensed Matter Physics",
+        "Materials Engineering",
+        "Materials Science"
+      ],
+      "domains": [
+        "Experimental measurement",
+        "Data analysis",
+        "electron microscopy",
+        "X-ray diffraction",
+        "Raman spectroscopy",
+        "ultraviolet-visible spectroscopy"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "countries": [
+        "Germany",
+        "European Union"
+      ],
+      "publications": [
+        {
+          "id": 649,
+          "pubmed_id": null,
+          "title": "NOMAD: The FAIR Concept for Big-Data-Driven Materials Science",
+          "year": 2018,
+          "url": "https://doi.org/10.1557/mrs.2018.208",
+          "authors": "C. Draxl and M. Scheffler",
+          "journal": "MRS Bulletin 43, 676",
+          "doi": null,
+          "created_at": "2021-09-30T08:23:31.412Z",
+          "updated_at": "2021-09-30T08:23:31.412Z"
+        },
+        {
+          "id": 656,
+          "pubmed_id": null,
+          "title": "The NOMAD Laboratory: From Data Sharing to Artificial Intelligence",
+          "year": 2019,
+          "url": "https://iopscience.iop.org/article/10.1088/2515-7639/ab13bb",
+          "authors": "C. Draxl and M. Scheffler",
+          "journal": "J. Phys. Mater. 2, 036001",
+          "doi": null,
+          "created_at": "2021-09-30T08:23:32.444Z",
+          "updated_at": "2021-09-30T08:23:32.444Z"
+        },
+        {
+          "id": 4673,
+          "pubmed_id": 35478233,
+          "title": "FAIR data enabling new horizons for materials research",
+          "year": 2022,
+          "url": "https://doi.org/10.1038/s41586-022-04501-x",
+          "authors": "M. Scheffler, M. Aeschlimann, M. Albrecht, T. Bereau, H.-J. Bungartz, C.Felser, M. Greiner, A. Groß, C. Koch, K. Kremer, W. E. Nagel, M. Scheidgen, C. Wöll, and C. Draxl ",
+          "journal": "Nature",
+          "doi": "https://doi.org/10.1038/s41586-022-04501-x",
+          "created_at": "2024-12-19T14:51:47.136Z",
+          "updated_at": "2024-12-19T14:51:47.136Z"
+        },
+        {
+          "id": 4675,
+          "pubmed_id": 1021105,
+          "title": "NOMAD: A distributed web-based platform for managing materials science research data",
+          "year": 2023,
+          "url": "https://joss.theoj.org/papers/10.21105/joss.05388",
+          "authors": "M. Scheidgen, L. Himanen, A. N. Ladines, D. Sikter, M. Nakhaee, Á. Fekete, T. Chang, A. Golparvar, J. A. Márquez, S. Brockhauser, S. Brückner, L. M. Ghiringhelli, F. Dietrich, D. Lehmberg, T. Denell, A. Albino, H. Näsström, S. Shabih, F. Dobener, M. Kühbach, R. Mozumder, J. F. Rudzinski, N. Daelman, J. M. Pizarro, M. Kuban, C. Salazar, P. Ondračka, H.-J. Bungartz, and C. Draxl ",
+          "journal": "J. Open Source Softw. 8, 5388",
+          "doi": "10.21105/joss.05388",
+          "created_at": "2024-12-19T15:00:01.915Z",
+          "updated_at": "2024-12-19T15:00:01.915Z"
+        }
+      ],
+      "licence_links": [
+        {
+          "licence_name": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licence_id": 167,
+          "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+          "link_id": 3932,
+          "relation": "applies_to_content"
+        }
+      ],
+      "grants": [
+        {
+          "grant_id": 2029,
+          "grant_name": " Novel Materials Discovery (grant agreement ID: 951786)"
+        },
+        {
+          "grant_id": 2027,
+          "grant_name": "FAIRmat – FAIR Data Infrastructure for Condensed-Matter Physics and the Chemical Physics of Solids (460197019)"
+        },
+        {
+          "grant_id": 2030,
+          "grant_name": "The Novel Materials Discovery Laboratory (grant agreement ID: 676580)"
+        }
+      ],
+      "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb2NGIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--17b61af321389a1767eec856f4dce5fd233d1d07/Screenshot%20From%202024-12-02%2017-18-02.png?disposition=inline",
+      "exhaustive_licences": false,
+      "object_types": [
+        "dataset",
+        "image",
+        "model",
+        "protocol or workflow"
+      ],
+      "internal_identifiers": false
+    }
+  },
+  "sources": {
+    "exported_at": "2026-11-19T14:15:20+01:00",
+    "api_response": {
+      "endpoint": "https://api.fairsharing.org/fairsharing_records/2501",
+      "retrieval": "live request",
+      "record_updated_at": "2026-11-18T16:43:36.512Z"
+    },
+    "public_record_page": "https://fairsharing.org/2501/",
+    "coverage": "REST API response and supplementary fields visible on the public record."
+  },
+  "public_record": {
+    "general_information": {
+      "awaiting_curator_review": true,
+      "maintainers": [
+        {
+          "username": "amansour",
+          "fairsharing_profile": "https://fairsharing.org/users/12878",
+          "orcid": "https://orcid.org/0000-0002-3411-6808"
+        }
+      ],
+      "community_champions": [
+        {
+          "username": "Christian.Bonatto-Minella",
+          "fairsharing_profile": "https://fairsharing.org/users/9795",
+          "orcid": "https://orcid.org/0000-0001-7696-7662"
+        },
+        {
+          "username": "davidtomkins",
+          "fairsharing_profile": "https://fairsharing.org/users/5491",
+          "orcid": "https://orcid.org/0009-0000-4679-676X"
+        }
+      ],
+      "last_editor": "amansour",
+      "last_reviewed_display": "Monday, December 2nd 2024, 18:23"
+    },
+    "data_processes": [
+      {
+        "name": "NOMAD Central REST API",
+        "url": "https://nomad-lab.eu/backend/api/v1/",
+        "access_method": "REST",
+        "documentation_url": "https://docs.nomad-lab.eu/reference/api.html",
+        "example_url": null,
+        "read": false,
+        "write": true
+      },
+      {
+        "name": "NOMAD Search Apps",
+        "url": "https://nomad-lab.eu/apps",
+        "access_method": "User interface",
+        "documentation_url": "https://docs.nomad-lab.eu/tutorial/explore.html",
+        "example_url": null,
+        "read": true,
+        "write": false
+      },
+      {
+        "name": "NOMAD OPTIMADE API",
+        "url": "https://nomad-lab.eu/backend/optimade/v1/",
+        "access_method": "REST",
+        "documentation_url": "https://nomad-lab.eu/backend/optimade/v1/",
+        "example_url": null,
+        "read": true,
+        "write": false
+      }
+    ],
+    "licence_display": {
+      "spdx_urls": [
+        "https://spdx.org/licenses/CC-BY-4.0.html"
+      ]
+    },
+    "organisations": {
+      "maintaining": [
+        {
+          "name": "Humboldt-Universität zu Berlin, Berlin, Germany",
+          "fairsharing_url": "https://fairsharing.org/organisations/1284",
+          "ror": "https://ror.org/01hcx6992",
+          "lead": true,
+          "displayed_details": "Humboldt-Universität zu Berlin, Berlin, Germany \nLead\n\n(University)"
+        },
+        {
+          "name": "Max Planck Computing and Data Facility",
+          "fairsharing_url": "https://fairsharing.org/organisations/1779",
+          "ror": "https://ror.org/03e21z229",
+          "lead": false,
+          "displayed_details": "Max Planck Computing and Data Facility \n\n(Consortium, Research institute)"
+        }
+      ],
+      "funding": [
+        {
+          "name": "European Commission Horizon 2020",
+          "fairsharing_url": "https://fairsharing.org/organisations/912",
+          "ror": null,
+          "lead": false,
+          "displayed_details": "European Commission Horizon 2020\n\n(Government body)\n\nGrants: Novel Materials Discovery (grant agreement ID: 951786),The Novel Materials Discovery Laboratory (grant agreement ID: 676580)"
+        },
+        {
+          "name": "Deutsche Forschungsgemeinschaft",
+          "fairsharing_url": "https://fairsharing.org/organisations/749",
+          "ror": "https://ror.org/018mejw64",
+          "lead": false,
+          "displayed_details": "Deutsche Forschungsgemeinschaft \n\n(Government body)\n\nGrant:FAIRmat – FAIR Data Infrastructure for Condensed-Matter Physics and the Chemical Physics of Solids (460197019)"
+        }
+      ]
+    },
+    "relationships": {
+      "from_nomad": {
+        "standards": [
+          {
+            "name": "Basic Formal Ontology",
+            "record_id": 1248,
+            "fairsharing_url": "https://fairsharing.org/1248",
+            "relation": "implements",
+            "statement": "NOMAD Central Platform implements Basic Formal Ontology"
+          },
+          {
+            "name": "Voc4Cat - A SKOS vocabulary for the catalysis disciplines.",
+            "record_id": 4978,
+            "fairsharing_url": "https://fairsharing.org/4978",
+            "relation": "related to",
+            "statement": "NOMAD Central Platform related to Voc4Cat - A SKOS vocabulary for the catalysis disciplines."
+          },
+          {
+            "name": "Open Databases Integration for Materials Design",
+            "record_id": 1473,
+            "fairsharing_url": "https://fairsharing.org/1473",
+            "relation": "implements",
+            "statement": "NOMAD Central Platform implements Open Databases Integration for Materials Design"
+          },
+          {
+            "name": "Crystallographic Information Framework",
+            "record_id": 183,
+            "fairsharing_url": "https://fairsharing.org/183",
+            "relation": "outputs and accepts",
+            "statement": "NOMAD Central Platform outputs and accepts Crystallographic Information Framework"
+          },
+          {
+            "name": "NeXus Data Format",
+            "record_id": 524,
+            "fairsharing_url": "https://fairsharing.org/524",
+            "relation": "accepts and outputs",
+            "statement": "NOMAD Central Platform accepts and outputs NeXus Data Format"
+          },
+          {
+            "name": "DataCite Metadata Schema",
+            "record_id": 758,
+            "fairsharing_url": "https://fairsharing.org/758",
+            "relation": "outputs",
+            "statement": "NOMAD Central Platform outputs DataCite Metadata Schema"
+          },
+          {
+            "name": "Digital Object Identifier",
+            "record_id": 1332,
+            "fairsharing_url": "https://fairsharing.org/1332",
+            "relation": "implements",
+            "statement": "NOMAD Central Platform implements Digital Object Identifier"
+          }
+        ],
+        "databases": [
+          {
+            "name": "PubChem",
+            "record_id": 1989,
+            "fairsharing_url": "https://fairsharing.org/1989",
+            "relation": "shares data with",
+            "statement": "NOMAD Central Platform shares data with PubChem"
+          }
+        ],
+        "fairassist_components": []
+      },
+      "to_nomad": {
+        "collections": [
+          {
+            "name": "NFDI4Chem",
+            "record_id": 5027,
+            "fairsharing_url": "https://fairsharing.org/5027",
+            "relation": "collects",
+            "statement": "NFDI4Chem collects NOMAD Central Platform"
+          },
+          {
+            "name": "Artificial Intelligence Resources",
+            "record_id": 7193,
+            "fairsharing_url": "https://fairsharing.org/7193",
+            "relation": "collects",
+            "statement": "Artificial Intelligence Resources collects NOMAD Central Platform"
+          }
+        ],
+        "policies": [
+          {
+            "name": "Open Research Africa Data Guidelines",
+            "record_id": 3355,
+            "fairsharing_url": "https://fairsharing.org/3355",
+            "relation": "recommends",
+            "statement": "Open Research Africa Data Guidelines recommends NOMAD Central Platform"
+          },
+          {
+            "name": "Elsevier's Data Policy",
+            "record_id": 3402,
+            "fairsharing_url": "https://fairsharing.org/3402",
+            "relation": "recommends",
+            "statement": "Elsevier's Data Policy recommends NOMAD Central Platform"
+          },
+          {
+            "name": "Springer Nature - Research Data Policies (legacy)",
+            "record_id": 3350,
+            "fairsharing_url": "https://fairsharing.org/3350",
+            "relation": "recommends",
+            "statement": "Springer Nature - Research Data Policies (legacy) recommends NOMAD Central Platform"
+          },
+          {
+            "name": "American Association for the Advancement of Science - Science - Editorial Policies",
+            "record_id": 3422,
+            "fairsharing_url": "https://fairsharing.org/3422",
+            "relation": "recommends",
+            "statement": "American Association for the Advancement of Science - Science - Editorial Policies recommends NOMAD Central Platform"
+          },
+          {
+            "name": "Nature - Nature Scientific Data - Data Repository Guidance",
+            "record_id": 3408,
+            "fairsharing_url": "https://fairsharing.org/3408",
+            "relation": "recommends",
+            "statement": "Nature - Nature Scientific Data - Data Repository Guidance recommends NOMAD Central Platform"
+          },
+          {
+            "name": "Springer Nature - Research data policy",
+            "record_id": 5119,
+            "fairsharing_url": "https://fairsharing.org/5119",
+            "relation": "recommends",
+            "statement": "Springer Nature - Research data policy recommends NOMAD Central Platform"
+          }
+        ]
+      }
+    }
+  }
+}
