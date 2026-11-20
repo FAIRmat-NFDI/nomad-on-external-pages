@@ -1,5 +1,39 @@
 # NOMAD entry on Re3data
 
+Changes submitted on **18 November 2026** are **under review by re3data**. Publication is pending.
+
+### Export the published record
+
+The [export script](../../Scirpts/export_re3data.py) saves a dated snapshot of
+NOMAD's published re3data metadata for tracking and comparing the entry over
+time. It reads the entry without submitting changes to re3data.
+
+Python and internet access are required; no credentials or additional packages
+are needed. From a terminal at the repository root, run:
+
+```powershell
+python Scirpts/export_re3data.py
+```
+
+The script prints the saved file's path. It downloads NOMAD's
+published XML from the public [re3data schema 4.0 API](https://www.re3data.org/api/doc/)
+and checks that it contains record `r3d100011583` before saving it unchanged.
+
+The default output is `NOMAD/Re3data/NOMAD-Re3data-r3d100011583_YYYY-MM-DD.xml`,
+resolved relative to the script's location. Running again on the same date
+replaces that day's export. Use `--target-folder PATH` to choose another folder.
+The export contains the public record and may not yet include changes under
+review. The existing `NOMAD_re3data.xml` editing template is kept separately.
+
+Optional commands, also run from the repository root:
+
+```powershell
+# Save to a different folder
+python Scirpts/export_re3data.py --target-folder "path/to/exports"
+
+# Show all command-line options
+python Scirpts/export_re3data.py --help
+```
 
 ### Instructions for updating the entry: 
 1. Open the NOMAD entry page by visiting this [Link](https://www.re3data.org/search?query=NOMAD)
