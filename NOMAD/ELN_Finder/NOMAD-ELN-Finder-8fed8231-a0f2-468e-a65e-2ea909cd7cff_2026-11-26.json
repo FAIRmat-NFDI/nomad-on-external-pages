@@ -1,0 +1,1231 @@
+{
+  "id": "8fed8231-a0f2-468e-a65e-2ea909cd7cff",
+  "uuid": "8fed8231-a0f2-468e-a65e-2ea909cd7cff",
+  "name": "NOMAD Central Platform",
+  "handle": "eln/150.5",
+  "metadata": {
+    "AK.K04": [
+      {
+        "value": "NOMAD Central platform stores research data at the Max Planck Computing and Data Facility (MPCDF) in Germany.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.K20": [
+      {
+        "value": "NOMAD Central integrates with PubChem to populate substance records with chemical identifiers and properties. Through the NOMAD Remote Tools Hub (NORTH), users can run hosted analysis tools and Jupyter notebooks connected to NOMAD data.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.K31": [
+      {
+        "value": "NOMAD Central can receive measurement data and associated metadata from laboratory instruments through NOMAD CAMELS. CAMELS connects to and controls supported instruments, captures their output, and transfers the resulting data to NOMAD Central.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.K33": [
+      {
+        "value": "NOMAD’s Terms of Use state that personal information associated with user registration is managed in accordance with the GDPR and national data protection regulations. Its Privacy Policy describes the purposes and legal bases for processing personal information, retention practices, and users’ privacy rights.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.K41": [
+      {
+        "value": "Users can create their own data schemas, visualizations, and notebooks. There is a plugin mechanism for creating schemas and parsers to support additional data types.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.K44": [
+      {
+        "value": "NOMAD Central supports sign-in with a NOMAD account using a username or email and password, as well as federated sign-in through Helmholtz AAI using participating institutional or external identity providers. Authentication is managed through Keycloak using OpenID Connect (OIDC), which builds on OAuth 2.0.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.api": [
+      {
+        "value": "NOMAD Central provides a REST API for uploading, searching, retrieving, and managing research data and metadata. Users can access the API through Python libraries and scripts or command-line tools such as curl. An OPTIMADE API provides standardized access to materials structure data.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.automatisierung": [
+      {
+        "value": "NOMAD Central automatically processes supported uploaded files to extract and structure data and metadata. Through integration with NOMAD CAMELS, measurement data and associated metadata can be transferred from laboratory instruments to NOMAD Central. Users can automate uploads, searches, downloads, and processing through the REST API, and perform analysis workflows using NORTH tools and notebooks.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.betriebssystem": [
+      {
+        "value": "NOMAD Central runs on Linux server infrastructure. Users access the service through a web browser on Windows, macOS, Linux, or another compatible operating system.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.daten.eingabe": [
+      {
+        "value": "Users can define their own forms to acquire consistent datasets. Many files of many types can be processed, references, and analysed.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.daten.zugriff": [
+      {
+        "value": "NOMAD Central is accessible through a web browser. Users can create and edit ELN records, upload and explore data, manage projects, and publish research data through the web interface. Programmatic access is available through the REST API.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.fach": [
+      {
+        "value": "Materials science, condensed-matter physics, and the chemical physics of solids, including experimental characterization, materials synthesis, and computational research.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.import.formate": [
+      {
+        "value": "NOMAD Central imports experimental and computational data through installed parsers. Supported inputs include JSON and YAML files, CSV and Excel spreadsheets with appropriate schema mappings, scientific instrument and simulation files, and ZIP or TAR.GZ archives. Compatible ELN exports, including .eln files, can also be imported. Additional files can be stored alongside the data; automatic extraction of structured information depends on the available parser and schema.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.import.methode": [
+      {
+        "value": "There is also an API and data can be uploaded via command line tools.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.kollaboration": [
+      {
+        "value": "NOMAD Central allows project owners to share unpublished projects with collaborators. Reviewers can view files and entries, while coauthors can view and modify them. Project owners manage collaborator permissions and control when projects are published, including whether an embargo applies.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.kontroll.vokabular": [
+      {
+        "value": "NOMAD is built on structured data based on well-defined schema called the NOMAD Metainfo (https://nomad-lab.eu/prod/v1/gui/analyze/metainfo). NOMAD Metainfo can be extended and enhanced with standardized vocabularies and ontologies.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.labormanagement.funktionen": [
+      {
+        "value": "NOMAD Central supports structured records for substances, samples, and instruments. Samples can be linked to their constituent materials, preparation processes, measurements, and analyses, allowing researchers to trace their experimental history.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.lizenzmodell": [
+      {
+        "value": "NOMAD’s core software is distributed under the Apache License 2.0.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.nutzungsart": [
+      {
+        "value": "NOMAD Central is a hosted service accessible through a web browser. Researchers can use its ELN and data management features without installing or operating the server software themselves.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.suchfunktion": [
+      {
+        "value": "NOMAD Central supports keyword searches and filtering by indexed metadata, including ELN record types, tags, materials, methods, and properties. Users can combine search conditions and customize search widgets. The REST API supports structured queries with logical operators and numerical ranges.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.support": [
+      {
+        "value": "FAIRmat offers regular online hands-on tutorials. Users can interact directly with the developers and other users on the NOMAD Discord channel.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.templates": [
+      {
+        "value": "NOMAD Central provides built-in ELN templates for substances, samples, instruments, processes, measurements, and experiments. Users can define and upload custom templates using YAML schemas. They can also reuse schemas from their own projects or projects shared or published by other users.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AK.workflows": [
+      {
+        "value": "NOMAD Central enables researchers to document experimental workflows by linking samples, instruments, processes, measurements, and analyses. Processes can contain ordered steps, and experiment records can combine multiple activities. Interactive workflow graphs display these steps and their connections to the associated data.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AT.aktiv": [
+      {
+        "value": "active",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AT.aktiv.info": [
+      {
+        "value": "NOMAD is actively developed and maintained by the NOMAD team within FAIRmat. NOMAD Central Platform receives regular software updates, with stable releases typically published every two to three months. The latest software release is v2.0.0, with a changelog dated 18 October 2026",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AT.anbieter.sicherungsstrategie": [
+      {
+        "value": "NOMAD Central Platform stores and manages research data at the Max Planck Computing and Data Facility (MPCDF) in Germany. Project owners control access to unpublished data through reviewer and coauthor permissions. Published projects can have an embargo that restricts access to files until the embargo ends. NOMAD Central provides regular backups and data retention for at least ten years.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AT.community": [
+      {
+        "value": "NOMAD Discord Server (https://discord.gg/Gyzx3ukUw8) is a community channel for asking questions, receiving support, discussing NOMAD, and sharing feedback with developers and other users.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AT.exit.strategy": [
+      {
+        "value": "Users can download their original data files and retrieve processed data and metadata in structured JSON format through NOMAD’s web interface and REST API. Project files can be downloaded as ZIP archives. Institutions operating a NOMAD Oasis can back up the stored files and database to support restoration or migration.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "AT.nutzer2": [
+      {
+        "value": "NOMAD is used by Helmholtz-Zentrum Berlin für Materialien und Energie (HZB), Leibniz-Institut für Kristallzüchtung (IKZ), the Technical University of Denmark (DTU), RWTH Aachen University, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Humboldt-Universität zu Berlin, and many more institutions and research groups.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.K04.01": [
+      {
+        "value": "K04_01_01",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.K04.02": [
+      {
+        "value": "K04_02_01",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.K20": [
+      {
+        "value": "JupyterHub",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Pubchem",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      },
+      {
+        "value": "Create own plug-ins",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 2
+      }
+    ],
+    "K.K31": [
+      {
+        "value": "Device connection",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.K33": [
+      {
+        "value": "K33_15",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.K41": [
+      {
+        "value": "Customizable user interface",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.K44": [
+      {
+        "value": "K44_03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "K44_04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      },
+      {
+        "value": "K44_01",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 2
+      }
+    ],
+    "K.anbieter.sitz": [
+      {
+        "value": "Germany",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.api": [
+      {
+        "value": "REST API",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Python library",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      },
+      {
+        "value": "Other API",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 2
+      }
+    ],
+    "K.automatisierung": [
+      {
+        "value": "Data analysis",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Get data from instrument",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      }
+    ],
+    "K.betriebssystem": [
+      {
+        "value": "Linux",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.beweis.sicherheit": [
+      {
+        "value": "RFC 3161",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Timestamping",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      }
+    ],
+    "K.daten.eingabe": [
+      {
+        "value": "Browser forms",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Rich text editor",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      },
+      {
+        "value": "Plain text editor",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 2
+      },
+      {
+        "value": "With external links",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 3
+      },
+      {
+        "value": "With internal links",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 4
+      }
+    ],
+    "K.daten.export": [
+      {
+        "value": "Complete content in machine readable format",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Formats suitable for long term archiving",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      },
+      {
+        "value": "Formats suitable for publication",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 2
+      }
+    ],
+    "K.daten.zugriff": [
+      {
+        "value": "Browser based",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.import.formate": [
+      {
+        "value": "Scientific formats",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Structured formats",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      },
+      {
+        "value": "Table formats",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 2
+      },
+      {
+        "value": "Compressed formats",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 3
+      },
+      {
+        "value": "MS Office formats",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 4
+      }
+    ],
+    "K.import.methode": [
+      {
+        "value": "Drag & Drop / File Chooser",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.kollaboration": [
+      {
+        "value": "Rights management",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Role management",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      }
+    ],
+    "K.kontroll.vokabular": [
+      {
+        "value": "Controlled Vocabulary",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.labormanagement.funktionen": [
+      {
+        "value": "Materials database",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Sample Tracking",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      }
+    ],
+    "K.lizenzmodell": [
+      {
+        "value": "Open Source",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.nutzungsart": [
+      {
+        "value": "Software as a Service",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.preismodell": [
+      {
+        "value": "Free",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.sprachen": [
+      {
+        "value": "English",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "K.suchfunktion": [
+      {
+        "value": "Advanced search",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Conditional search",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      },
+      {
+        "value": "Search by chemical structure",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 2
+      },
+      {
+        "value": "Database queries",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 3
+      }
+    ],
+    "K.support": [
+      {
+        "value": "Online documentation",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "User training (online, on site)",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      },
+      {
+        "value": "Support by provider",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 2
+      }
+    ],
+    "K.templates": [
+      {
+        "value": "Define own templates",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Import of own templates",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      },
+      {
+        "value": "Subject specific templates",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 2
+      }
+    ],
+    "K.workflows": [
+      {
+        "value": "Graphical",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Project-related workflows",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      }
+    ],
+    "S.K20": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.K31": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.K33": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.K41": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.K44": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.aktiv": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.aktiv.info": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.anbieter.sicherungsstrategie": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.anbieter.sitz": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.api": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.automatisierung": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.betriebssystem": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.beweis.sicherheit": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.community": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.contributor.other": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.creator": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.date.updated": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.daten.eingabe": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.daten.export": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.daten.speicherort": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.daten.zugriff": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.description.abstract": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.description.uri": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.exit.strategy": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.import.formate": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.import.methode": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.kollaboration": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.kontroll.vokabular": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.labormanagement.funktionen": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.lizenzmodell": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.nutzer2": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.nutzungsart": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.preismodell": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.sprachen": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.subject": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.suchfunktion": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.support": [
+      {
+        "value": "S04",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.templates": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.title": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "S.workflows": [
+      {
+        "value": "S03",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "dc.contributor.other": [
+      {
+        "value": "FAIRmat is a consortium within Germany’s National Research Data Infrastructure (NFDI), funded by the German Research Foundation (DFG, project 460197019). It develops a FAIR data infrastructure for condensed-matter physics, the chemical physics of solids, and related areas of materials science. NOMAD is its core platform for managing, documenting, analyzing, and sharing research data.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "dc.creator": [
+      {
+        "value": "FAIRmat",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "dc.date.accessioned": [
+      {
+        "value": "2026-11-25T16:58:59Z",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "dc.date.available": [
+      {
+        "value": "2023-09-12T09:19:31Z",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "2025-03-13T09:03:39Z",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      }
+    ],
+    "dc.date.updated": [
+      {
+        "value": "2026-11-19",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "dc.description.abstract": [
+      {
+        "value": "NOMAD provides an integrated electronic laboratory notebook (ELN) for documenting and managing materials science experiments. Researchers can create structured, searchable records of substances, samples, instruments, processing steps, measurements, and analyses, and link them to represent complete experimental workflows. Built-in ELN templates can be used directly in the web interface, while custom templates can be defined using YAML schemas. Institutions and research groups can deploy NOMAD Oasis on their own infrastructure and extend its ELN functionality through Python-based schema plugins.\n\nNOMAD Central Platform is a free web service for organizing, analyzing, sharing, and publishing materials science data. Its integrated ELN connects laboratory documentation with experimental and computational data, supporting collaboration and reuse. All data in NOMAD are organized in well-defined structures described by a formal schema to support the FAIR principles (Findable, Accessible, Interoperable, Reusable). Researchers can explore, download, and analyze publicly available data and assign a Digital Object Identifier (DOI) to a published project so others can cite it.",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "dc.description.uri": [
+      {
+        "value": "https://about.nomad-lab.eu",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "dc.identifier.uri": [
+      {
+        "value": "https://eln-finder.ulb.tu-darmstadt.de/handle/eln/150.5",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "dc.subject": [
+      {
+        "value": "Natural Sciences",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      },
+      {
+        "value": "Chemistry:Physical chemistry",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 1
+      }
+    ],
+    "dc.title": [
+      {
+        "value": "NOMAD Central Platform",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ],
+    "dc.type": [
+      {
+        "value": "cloud",
+        "language": null,
+        "authority": null,
+        "confidence": -1,
+        "place": 0
+      }
+    ]
+  },
+  "inArchive": true,
+  "discoverable": true,
+  "withdrawn": false,
+  "lastModified": "2026-11-25T16:58:59.531325Z",
+  "entityType": null,
+  "type": "item",
+  "_links": {
+    "accessStatus": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/accessStatus"
+    },
+    "bundles": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/bundles"
+    },
+    "identifiers": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/identifiers"
+    },
+    "mappedCollections": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/mappedCollections"
+    },
+    "owningCollection": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/owningCollection"
+    },
+    "relationships": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/relationships"
+    },
+    "version": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/version"
+    },
+    "templateItemOf": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/templateItemOf"
+    },
+    "thumbnail": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/thumbnail"
+    },
+    "submitter": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff/submitter"
+    },
+    "self": {
+      "href": "https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/8fed8231-a0f2-468e-a65e-2ea909cd7cff"
+    }
+  }
+}

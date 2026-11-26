@@ -1,4 +1,4 @@
-"""Export NOMAD ELN's published ELN Finder record as dated JSON.
+"""Export NOMAD Central Platform's published ELN Finder record as dated JSON.
 
 Run python Scirpts/export_elnfinder.py. No credentials or third-party packages
 are required. Exports default to the repository's NOMAD/ELN_Finder folder.
@@ -13,7 +13,7 @@ from tempfile import NamedTemporaryFile
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-RECORD_ID = "3e8ac43f-e6a3-437e-8a98-b2070d6cda8b"
+RECORD_ID = "8fed8231-a0f2-468e-a65e-2ea909cd7cff"
 API_URL = f"https://eln-finder.ulb.tu-darmstadt.de/server/api/core/items/{RECORD_ID}"
 DEFAULT_TARGET_FOLDER = Path(__file__).resolve().parent.parent / "NOMAD" / "ELN_Finder"
 
